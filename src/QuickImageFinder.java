@@ -128,8 +128,8 @@ public class QuickImageFinder{
     }
 
     public static void main(String[] args){
-        String fullImage = "src/Images/LOZ_image_full_1.png";
-        String partImage = "src/Images/LOZ_image_part_1.png";
+        String fullImage = "";
+        String partImage = "";
         QuickImageFinder findImage = new QuickImageFinder(fullImage, partImage);
         findImage.processImages();
         findImage.drawOutput();
